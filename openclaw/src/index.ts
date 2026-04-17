@@ -55,6 +55,13 @@ interface ToolResultPersistEvent {
   };
 }
 
+interface ToolResultPersistContext {
+  agentId?: string;
+  sessionKey?: string;
+  toolName?: string;
+  toolCallId?: string;
+}
+
 interface AgentEndEvent {
   messages?: Array<{
     role: string;
@@ -98,7 +105,7 @@ interface MessageContext {
   conversationId?: string;
 }
 
-type EventCallback<T> = (event: T, ctx: EventContext) => void | Promise<void>;
+type EventCallback<T, TContext = EventContext> = (event: T, ctx: TContext) => void | Promise<void>;
 type PromptBuildCallback = (event: BeforePromptBuildEvent, ctx: EventContext) => BeforePromptBuildResult | Promise<BeforePromptBuildResult | void> | void;
 type MessageEventCallback<T> = (event: T, ctx: MessageContext) => void | Promise<void>;
 
@@ -124,7 +131,7 @@ interface OpenClawPluginApi {
   }) => void;
   on: ((event: "before_prompt_build", callback: PromptBuildCallback) => void) &
       ((event: "before_agent_start", callback: EventCallback<BeforeAgentStartEvent>) => void) &
-      ((event: "tool_result_persist", callback: EventCallback<ToolResultPersistEvent>) => void) &
+      ((event: "tool_result_persist", callback: EventCallback<ToolResultPersistEvent, ToolResultPersistContext>) => void) &
       ((event: "agent_end", callback: EventCallback<AgentEndEvent>) => void) &
       ((event: "session_start", callback: EventCallback<SessionStartEvent>) => void) &
       ((event: "session_end", callback: EventCallback<SessionEndEvent>) => void) &
@@ -644,6 +651,7 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
   const sessionIds = new Map<string, string>();
   const canonicalSessionKeys = new Map<string, string>();
   const sessionAliasesByCanonicalKey = new Map<string, Set<string>>();
+  const workspaceDirsBySessionKey = new Map<string, string>();
   const pendingCompletionTimers = new Map<string, ReturnType<typeof setTimeout>>();
   const recentPromptInits = new Map<string, number>();
   const completionDelayMs = (() => {
@@ -685,6 +693,37 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
     return Array.from(aliases);
   }
 
+  function rememberWorkspaceDir(canonicalKey: string, ctx: SessionTrackingContext): void {
+    const workspaceDir = typeof ctx.workspaceDir === "string" ? ctx.workspaceDir.trim() : "";
+    if (!workspaceDir) return;
+
+    workspaceDirsBySessionKey.set(canonicalKey, workspaceDir);
+    const aliasSet = sessionAliasesByCanonicalKey.get(canonicalKey);
+    if (!aliasSet) return;
+    for (const alias of aliasSet) {
+      workspaceDirsBySessionKey.set(alias, workspaceDir);
+    }
+  }
+
+  function debugSessionState(canonicalKey: string, ctx: SessionTrackingContext): string {
+    const aliases = Array.from(sessionAliasesByCanonicalKey.get(canonicalKey) || []);
+    const rawWorkspaceDir = typeof ctx.workspaceDir === "string" ? ctx.workspaceDir.trim() : "";
+    const cacheEntries = [canonicalKey, ...aliases]
+      .filter((v, i, a) => Boolean(v) && a.indexOf(v) === i)
+      .map((k) => `${k}=${workspaceDirsBySessionKey.get(k) ?? "<none>"}`)
+      .join(" | ");
+    return `sessionKey=${ctx.sessionKey ?? "none"} canonicalKey=${canonicalKey} rawWsDir=${rawWorkspaceDir || "<none>"} aliases=[${aliases.join(",") || "none"}] wsCache=[${cacheEntries || "empty"}]`;
+  }
+
+  function resolveWorkspaceDir(canonicalKey: string, ctx: SessionTrackingContext): string | undefined {
+    const workspaceDir = typeof ctx.workspaceDir === "string" ? ctx.workspaceDir.trim() : "";
+    if (workspaceDir) {
+      rememberWorkspaceDir(canonicalKey, { ...ctx, workspaceDir });
+      return workspaceDir;
+    }
+    return workspaceDirsBySessionKey.get(canonicalKey);
+  }
+
   function rememberSessionContext(ctx: SessionTrackingContext): { canonicalKey: string; contentSessionId: string } {
     const aliases = getSessionAliases(ctx);
     let canonicalKey = aliases.find((alias) => canonicalSessionKeys.has(alias));
@@ -702,6 +741,7 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
     for (const alias of aliasSet) {
       sessionIds.set(alias, contentSessionId);
     }
+    rememberWorkspaceDir(canonicalKey, ctx);
     return { canonicalKey, contentSessionId };
   }
 
@@ -728,9 +768,11 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
     for (const alias of knownAliases) {
       canonicalSessionKeys.delete(alias);
       sessionIds.delete(alias);
+      workspaceDirsBySessionKey.delete(alias);
     }
     sessionAliasesByCanonicalKey.delete(canonicalKey);
     sessionIds.delete(canonicalKey);
+    workspaceDirsBySessionKey.delete(canonicalKey);
   }
 
   function scheduleSessionComplete(contentSessionId: string): void {
@@ -810,9 +852,11 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
   // Event: before_agent_start — single init point with dedup guard
   // ------------------------------------------------------------------
   api.on("before_agent_start", async (event, ctx) => {
-    const { contentSessionId } = rememberSessionContext(ctx);
+    const { canonicalKey, contentSessionId } = rememberSessionContext(ctx);
     const projectName = getProjectName(ctx);
     const promptText = event.prompt || "agent run";
+
+    api.logger.debug?.(`[claude-mem] before_agent_start context: ${debugSessionState(canonicalKey, ctx)}`);
 
     if (shouldSkipDuplicatePromptInit(contentSessionId, projectName, promptText)) {
       api.logger.info(`[claude-mem] Skipping duplicate prompt init: contentSessionId=${contentSessionId} project=${projectName}`);
@@ -860,6 +904,7 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
     if (toolName.startsWith("memory_")) return;
 
     const { canonicalKey, contentSessionId } = rememberSessionContext(ctx);
+    api.logger.debug?.(`[claude-mem] tool_result_persist context: ${debugSessionState(canonicalKey, ctx)} tool=${toolName}`);
 
     // Extract result text from all content blocks
     let toolResponseText = "";
@@ -877,15 +922,19 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
       toolResponseText = toolResponseText.slice(0, MAX_TOOL_RESPONSE_LENGTH);
     }
 
-    // Resolve workspaceDir with fallback chain.
+    // OpenClaw does not include workspaceDir in tool_result_persist hook context.
+    // Reuse the last workspaceDir seen for this session from agent lifecycle hooks.
     // Empty cwd causes worker-side observation queueing failures,
     // so we drop the observation rather than sending cwd: "".
-    const workspaceDir = ctx.workspaceDir;
+    const workspaceDir = resolveWorkspaceDir(canonicalKey, ctx);
 
     if (!workspaceDir) {
       api.logger.warn(`[claude-mem] Skipping observation persist because workspaceDir is unavailable: session=${canonicalKey} tool=${toolName}`);
+      api.logger.debug?.(`[claude-mem] workspaceDir cache miss: ${debugSessionState(canonicalKey, ctx)} tool=${toolName}`);
       return;
     }
+
+    api.logger.debug?.(`[claude-mem] workspaceDir resolved=${workspaceDir} session=${canonicalKey} tool=${toolName}`);
 
     // Fire-and-forget: send observation to worker
     workerPostFireAndForget(workerPort, "/api/sessions/observations", {
@@ -952,6 +1001,7 @@ export default function claudeMemPlugin(api: OpenClawPluginApi): void {
     recentPromptInits.clear();
     canonicalSessionKeys.clear();
     sessionAliasesByCanonicalKey.clear();
+    workspaceDirsBySessionKey.clear();
     for (const timer of pendingCompletionTimers.values()) {
       clearTimeout(timer);
     }
