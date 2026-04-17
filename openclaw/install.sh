@@ -728,7 +728,7 @@ run_openclaw() {
 # Flow based on openclaw/Dockerfile.e2e
 ###############################################################################
 
-CLAUDE_MEM_REPO="https://github.com/thedotmack/claude-mem.git"
+CLAUDE_MEM_REPO="https://github.com/vinhvgs/Claude-Memory-Openclaw.git"
 CLAUDE_MEM_BRANCH="${CLI_BRANCH:-main}"
 PLUGIN_FRESHLY_INSTALLED=""
 
@@ -1766,7 +1766,7 @@ print_completion_summary() {
   fi
   echo ""
   echo -e "  ${COLOR_BOLD}To re-run this installer:${COLOR_RESET}"
-  echo "  bash <(curl -fsSL https://install.cmem.ai/openclaw.sh)"
+  echo "  bash <(curl -fsSL https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/openclaw/install.sh)"
   echo ""
 }
 

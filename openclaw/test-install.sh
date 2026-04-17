@@ -549,7 +549,7 @@ for fn in find_openclaw check_openclaw install_plugin configure_plugin_entry; do
 done
 
 # Verify the CLAUDE_MEM_REPO constant
-assert_contains "$CLAUDE_MEM_REPO" "github.com/thedotmack/claude-mem" "CLAUDE_MEM_REPO points to correct repository"
+assert_contains "$CLAUDE_MEM_REPO" "github.com/vinhvgs/Claude-Memory-Openclaw" "CLAUDE_MEM_REPO points to correct repository"
 
 # Verify AI provider functions exist
 for fn in setup_ai_provider write_settings mask_api_key; do

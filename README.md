@@ -167,10 +167,10 @@ Restart Claude Code or Gemini CLI. Context from previous sessions will automatic
 Install claude-mem as a persistent memory plugin on [OpenClaw](https://openclaw.ai) gateways with a single command:
 
 ```bash
-curl -fsSL https://install.cmem.ai/openclaw.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/openclaw/install.sh | bash
 ```
 
-The installer handles dependencies, plugin setup, AI provider configuration, worker startup, and optional real-time observation feeds to Telegram, Discord, Slack, and more. See the [OpenClaw Integration Guide](https://docs.claude-mem.ai/openclaw-integration) for details.
+The installer handles dependencies, plugin setup, AI provider configuration, worker startup, and optional real-time observation feeds to Telegram, Discord, Slack, and more. See [openclaw/SKILL.md](openclaw/SKILL.md) for the integration guide used in this repo.
 
 **Key Features:**
 
