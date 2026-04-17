@@ -1,0 +1,55 @@
+name: E2E OpenRouter Mock
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'package.json'
+      - 'bun.lock'
+      - 'scripts/e2e-openrouter-mock.sh'
+      - 'plugin/scripts/worker-service.cjs'
+      - 'src/services/worker/OpenRouterAgent.ts'
+      - 'src/sdk/prompts.ts'
+      - 'src/services/worker/http/routes/SessionRoutes.ts'
+      - 'src/services/worker/http/routes/DataRoutes.ts'
+      - '.github/workflows/e2e-openrouter-mock.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'package.json'
+      - 'bun.lock'
+      - 'scripts/e2e-openrouter-mock.sh'
+      - 'plugin/scripts/worker-service.cjs'
+      - 'src/services/worker/OpenRouterAgent.ts'
+      - 'src/sdk/prompts.ts'
+      - 'src/services/worker/http/routes/SessionRoutes.ts'
+      - 'src/services/worker/http/routes/DataRoutes.ts'
+      - '.github/workflows/e2e-openrouter-mock.yml'
+
+jobs:
+  e2e-openrouter-mock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build project
+        run: npm run build
+
+      - name: Run isolated OpenRouter mock E2E
+        run: npm run test:e2e:openrouter-mock

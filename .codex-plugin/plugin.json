@@ -1,0 +1,43 @@
+{
+  "name": "claude-memory-openclaw",
+  "version": "12.1.6",
+  "description": "Claude Memory Openclaw - persistent memory and OpenClaw integration for cross-session context continuity",
+  "author": {
+    "name": "Alex Newman",
+    "url": "https://github.com/thedotmack"
+  },
+  "homepage": "https://github.com/vinhvgs/Claude-Memory-Openclaw#readme",
+  "repository": "https://github.com/vinhvgs/Claude-Memory-Openclaw",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-agent-sdk",
+    "mcp",
+    "plugin",
+    "memory",
+    "compression",
+    "knowledge-graph",
+    "transcript",
+    "typescript",
+    "nodejs"
+  ],
+  "interface": {
+    "displayName": "Claude Memory Openclaw",
+    "shortDescription": "Persistent memory and OpenClaw integration across coding sessions.",
+    "longDescription": "Claude Memory Openclaw captures coding-session activity, compresses it into reusable observations, and injects relevant context back into future Claude Code, Codex-compatible, and OpenClaw-connected sessions.",
+    "developerName": "Alex Newman",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vinhvgs/Claude-Memory-Openclaw",
+    "defaultPrompt": [
+      "Find what I already learned about this codebase before I start a new task.",
+      "Show recent observations related to the files I am editing right now.",
+      "Summarize the last session and inject the most relevant context into this one."
+    ],
+    "brandColor": "#1F6FEB"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Claude Memory Openclaw",
+  "owner": {
+    "name": "Vinh Nguyen"
+  },
+  "metadata": {
+    "description": "Claude Memory Openclaw plugin distribution and OpenClaw integration builds",
+    "homepage": "https://github.com/vinhvgs/Claude-Memory-Openclaw"
+  },
+  "plugins": [
+    {
+      "name": "claude-memory-openclaw",
+      "version": "12.1.6",
+      "source": "./plugin",
+      "description": "Claude Memory Openclaw - persistent memory system with OpenClaw integration and context compression across sessions"
+    }
+  ]
+}
