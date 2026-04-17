@@ -348,6 +348,26 @@ Language-specific modes follow the pattern `code--[lang]` where `[lang]` is the 
 #### After Changing Mode
 
 Restart Claude Code to apply the new mode configuration.
+
+---
+
+## Version History
+
+### 2026-04-17
+
+- Published and aligned the standalone **Claude Memory Openclaw** GitHub repo at `vinhvgs/Claude-Memory-Openclaw`
+- Cleaned public branding and documentation links away from the old upstream public repo references
+- Fixed the OpenClaw installer flow to use `--dangerously-force-unsafe-install` for local plugin installation
+- Added and documented an isolated mock OpenRouter E2E test:
+  - `npm run test:e2e:openrouter-mock`
+- Verified the adapter/runtime path with:
+  - root isolated worker E2E
+  - OpenClaw installer sandbox E2E
+  - OpenClaw package tests and installer readiness checks
+- Latest verified readiness noted during this update cycle:
+  - `npm test` passing for the OpenClaw package
+  - `openclaw/test-install.sh` passing in the standalone repo after installer/doc fixes
+
 ---
 
 ## Development
