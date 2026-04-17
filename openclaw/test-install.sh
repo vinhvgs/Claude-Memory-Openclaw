@@ -2226,7 +2226,7 @@ test_install_sh_has_set_euo_pipefail() {
 test_install_sh_has_set_euo_pipefail
 
 test_install_sh_has_stable_url_in_usage() {
-  if grep -q 'raw.githubusercontent.com/thedotmack/claude-mem/main/openclaw/install.sh' "$INSTALL_SCRIPT"; then
+  if grep -q 'raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/openclaw/install.sh' "$INSTALL_SCRIPT"; then
     test_pass "install.sh usage comment has stable raw.githubusercontent.com URL"
   else
     test_fail "install.sh should reference stable raw.githubusercontent.com URL in usage"
@@ -2252,6 +2252,16 @@ test_install_sh_documents_all_flags() {
 }
 
 test_install_sh_documents_all_flags
+
+test_install_sh_uses_force_unsafe_install_flag() {
+  if grep -Fq -- 'plugins install --dangerously-force-unsafe-install' "$INSTALL_SCRIPT"; then
+    test_pass "install.sh uses --dangerously-force-unsafe-install for OpenClaw plugin install"
+  else
+    test_fail "install.sh should use --dangerously-force-unsafe-install for OpenClaw plugin install"
+  fi
+}
+
+test_install_sh_uses_force_unsafe_install_flag
 
 test_install_sh_has_installer_version() {
   if grep -q 'INSTALLER_VERSION=' "$INSTALL_SCRIPT"; then

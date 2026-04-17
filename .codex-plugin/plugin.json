@@ -3,8 +3,7 @@
   "version": "12.1.6",
   "description": "Claude Memory Openclaw - persistent memory and OpenClaw integration for cross-session context continuity",
   "author": {
-    "name": "Alex Newman",
-    "url": "https://github.com/thedotmack"
+    "name": "Alex Newman"
   },
   "homepage": "https://github.com/vinhvgs/Claude-Memory-Openclaw#readme",
   "repository": "https://github.com/vinhvgs/Claude-Memory-Openclaw",

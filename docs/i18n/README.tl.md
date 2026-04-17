@@ -3,11 +3,11 @@
 ---
 <h1 align="center">
   <br>
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-dark-mode.webp">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
     </picture>
   </a>
   <br>
@@ -59,17 +59,15 @@
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
   </a>
-  <a href="https://github.com/thedotmack/awesome-claude-code">
     <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code">
-  </a>
 </p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15496" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg" alt="thedotmack/claude-mem | Trendshift" width="250" height="55"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg" alt="vinhvgs/Claude-Memory-Openclaw | Trendshift" width="250" height="55"/>
     </picture>
   </a>
 </p>
@@ -77,9 +75,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
     </picture>
   </a>
 </p>
@@ -129,35 +127,35 @@ I-restart ang Claude Code. Awtomatikong lalabas sa mga bagong session ang kontek
 
 ## Dokumentasyon
 
-📚 **[Tingnan ang Buong Dokumentasyon](https://docs.claude-mem.ai/)** - I-browse sa opisyal na website
+📚 **[Tingnan ang Buong Dokumentasyon](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)** - I-browse sa opisyal na website
 
 ### Pagsisimula
 
-- **[Gabay sa Pag-install](https://docs.claude-mem.ai/installation)** - Mabilis na pagsisimula at advanced installation
-- **[Gabay sa Paggamit](https://docs.claude-mem.ai/usage/getting-started)** - Paano awtomatikong gumagana ang Claude-Mem
-- **[Mga Search Tool](https://docs.claude-mem.ai/usage/search-tools)** - I-query ang history ng proyekto gamit ang natural language
-- **[Mga Beta Feature](https://docs.claude-mem.ai/beta-features)** - Subukan ang mga experimental feature tulad ng Endless Mode
+- **[Gabay sa Pag-install](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/installation.mdx)** - Mabilis na pagsisimula at advanced installation
+- **[Gabay sa Paggamit](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/getting-started.mdx)** - Paano awtomatikong gumagana ang Claude-Mem
+- **[Mga Search Tool](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx)** - I-query ang history ng proyekto gamit ang natural language
+- **[Mga Beta Feature](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** - Subukan ang mga experimental feature tulad ng Endless Mode
 
 ### Best Practices
 
-- **[Context Engineering](https://docs.claude-mem.ai/context-engineering)** - Mga prinsipyo ng context optimization para sa AI agents
-- **[Progressive Disclosure](https://docs.claude-mem.ai/progressive-disclosure)** - Pilosopiya sa likod ng context priming strategy ng Claude-Mem
+- **[Context Engineering](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/context-engineering.mdx)** - Mga prinsipyo ng context optimization para sa AI agents
+- **[Progressive Disclosure](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/progressive-disclosure.mdx)** - Pilosopiya sa likod ng context priming strategy ng Claude-Mem
 
 ### Arkitektura
 
-- **[Overview](https://docs.claude-mem.ai/architecture/overview)** - Mga bahagi ng sistema at daloy ng data
-- **[Architecture Evolution](https://docs.claude-mem.ai/architecture-evolution)** - Ang paglalakbay mula v3 hanggang v5
-- **[Hooks Architecture](https://docs.claude-mem.ai/hooks-architecture)** - Paano gumagamit ang Claude-Mem ng lifecycle hooks
-- **[Hooks Reference](https://docs.claude-mem.ai/architecture/hooks)** - 7 hook scripts, ipinaliwanag
-- **[Worker Service](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API at Bun management
-- **[Database](https://docs.claude-mem.ai/architecture/database)** - SQLite schema at FTS5 search
-- **[Search Architecture](https://docs.claude-mem.ai/architecture/search-architecture)** - Hybrid search gamit ang Chroma vector database
+- **[Overview](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx)** - Mga bahagi ng sistema at daloy ng data
+- **[Architecture Evolution](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture-evolution.mdx)** - Ang paglalakbay mula v3 hanggang v5
+- **[Hooks Architecture](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/hooks-architecture.mdx)** - Paano gumagamit ang Claude-Mem ng lifecycle hooks
+- **[Hooks Reference](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/hooks.mdx)** - 7 hook scripts, ipinaliwanag
+- **[Worker Service](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/worker-service.mdx)** - HTTP API at Bun management
+- **[Database](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/database.mdx)** - SQLite schema at FTS5 search
+- **[Search Architecture](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/search-architecture.mdx)** - Hybrid search gamit ang Chroma vector database
 
 ### Konpigurasyon at Pagbuo
 
-- **[Konpigurasyon](https://docs.claude-mem.ai/configuration)** - Environment variables at settings
-- **[Pagbuo](https://docs.claude-mem.ai/development)** - Build, test, at contribution workflow
-- **[Pag-troubleshoot](https://docs.claude-mem.ai/troubleshooting)** - Karaniwang isyu at solusyon
+- **[Konpigurasyon](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** - Environment variables at settings
+- **[Pagbuo](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** - Build, test, at contribution workflow
+- **[Pag-troubleshoot](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** - Karaniwang isyu at solusyon
 
 ---
 
@@ -172,7 +170,7 @@ I-restart ang Claude Code. Awtomatikong lalabas sa mga bagong session ang kontek
 5. **mem-search Skill** - Natural language queries na may progressive disclosure
 6. **Chroma Vector Database** - Hybrid semantic + keyword search para sa matalinong pagkuha ng konteksto
 
-Tingnan ang [Architecture Overview](https://docs.claude-mem.ai/architecture/overview) para sa detalye.
+Tingnan ang [Architecture Overview](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx) para sa detalye.
 
 ---
 
@@ -218,7 +216,7 @@ get_observations(ids=[123, 456])
 save_memory(text="API requires auth header X-API-Key", title="API Auth")
 ```
 
-Tingnan ang [Search Tools Guide](https://docs.claude-mem.ai/usage/search-tools) para sa mas detalyadong mga halimbawa.
+Tingnan ang [Search Tools Guide](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx) para sa mas detalyadong mga halimbawa.
 
 ---
 
@@ -226,7 +224,7 @@ Tingnan ang [Search Tools Guide](https://docs.claude-mem.ai/usage/search-tools) 
 
 May **beta channel** ang Claude-Mem na may mga experimental feature gaya ng **Endless Mode** (biomimetic memory architecture para sa mas mahahabang session). Magpalit sa pagitan ng stable at beta versions sa web viewer UI sa http://localhost:37777 → Settings.
 
-Tingnan ang **[Dokumentasyon ng Mga Beta Feature](https://docs.claude-mem.ai/beta-features)** para sa detalye ng Endless Mode at kung paano ito subukan.
+Tingnan ang **[Dokumentasyon ng Mga Beta Feature](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** para sa detalye ng Endless Mode at kung paano ito subukan.
 
 ---
 
@@ -256,13 +254,13 @@ Siguraduhing naka-install ang Node.js at npm at nakadagdag sa PATH. I-download a
 
 Pinamamahalaan ang settings sa `~/.claude-mem/settings.json` (auto-created na may defaults sa unang run). I-configure ang AI model, worker port, data directory, log level, at context injection settings.
 
-Tingnan ang **[Gabay sa Konpigurasyon](https://docs.claude-mem.ai/configuration)** para sa lahat ng available na settings at mga halimbawa.
+Tingnan ang **[Gabay sa Konpigurasyon](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** para sa lahat ng available na settings at mga halimbawa.
 
 ---
 
 ## Pagbuo
 
-Tingnan ang **[Gabay nang pagbuo](https://docs.claude-mem.ai/development)** para sa pag build instructions, testing, at contribution workflow.
+Tingnan ang **[Gabay nang pagbuo](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** para sa pag build instructions, testing, at contribution workflow.
 
 ---
 
@@ -270,7 +268,7 @@ Tingnan ang **[Gabay nang pagbuo](https://docs.claude-mem.ai/development)** para
 
 Kung may issue, ilarawan ang problema kay Claude at awtomatikong magdi-diagnose at magbibigay ng mga ayos ang troubleshoot skill.
 
-Tingnan ang **[Troubleshooting Guide](https://docs.claude-mem.ai/troubleshooting)** para sa mga karaniwang isyu at solusyon.
+Tingnan ang **[Troubleshooting Guide](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** para sa mga karaniwang isyu at solusyon.
 
 ---
 
@@ -293,7 +291,7 @@ Malugod na tinatanggap ang mga kontribusyon! Pakisunod:
 4. I-update ang dokumentasyon
 5. Mag-submit ng Pull Request
 
-Tingnan ang [Gabay nang pagbuo](https://docs.claude-mem.ai/development) para sa contribution workflow.
+Tingnan ang [Gabay nang pagbuo](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx) para sa contribution workflow.
 
 ---
 
@@ -319,9 +317,9 @@ Tingnan ang [LICENSE](LICENSE) file para sa buong detalye.
 ## Suporta
 
 - **Dokumentasyon**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/thedotmack/claude-mem/issues)
-- **Repository**: [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-- **Author**: Alex Newman ([@thedotmack](https://github.com/thedotmack))
+- **Issues**: [GitHub Issues](https://github.com/vinhvgs/Claude-Memory-Openclaw/issues)
+- **Repository**: [github.com/vinhvgs/Claude-Memory-Openclaw](https://github.com/vinhvgs/Claude-Memory-Openclaw)
+- **Author**: Alex Newman (upstream creator)
 
 ---
 

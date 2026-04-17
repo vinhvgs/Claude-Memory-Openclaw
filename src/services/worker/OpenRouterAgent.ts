@@ -492,15 +492,15 @@ export class OpenRouterAgent {
 
   private resolveOpenRouterReferer(siteUrl?: string): string {
     const trimmed = siteUrl?.trim();
-    if (!trimmed) return 'https://github.com/thedotmack/claude-mem';
+    if (!trimmed) return 'https://github.com/vinhvgs/Claude-Memory-Openclaw';
 
     try {
       const url = new URL(trimmed);
       const path = url.pathname.toLowerCase();
       const looksLikeApiEndpoint = path.includes('/chat/completions') || path.endsWith('/v1') || path.includes('/api/');
-      return looksLikeApiEndpoint ? 'https://github.com/thedotmack/claude-mem' : url.toString();
+      return looksLikeApiEndpoint ? 'https://github.com/vinhvgs/Claude-Memory-Openclaw' : url.toString();
     } catch {
-      return 'https://github.com/thedotmack/claude-mem';
+      return 'https://github.com/vinhvgs/Claude-Memory-Openclaw';
     }
   }
 

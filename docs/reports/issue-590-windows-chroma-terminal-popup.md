@@ -337,7 +337,7 @@ Implement **Solution 1 (PowerShell Wrapper)** as an immediate fix for the next r
 ### 8.3 Documentation
 
 - Windows Woes Report: `/docs/reports/2026-01-06--windows-woes-comprehensive-report.md`
-- Windows Troubleshooting: https://docs.claude-mem.ai/troubleshooting/windows-issues
+- Windows Troubleshooting: https://github.com/vinhvgs/Claude-Memory-Openclaw/blob/main/docs/public/troubleshooting.mdx
 
 ---
 

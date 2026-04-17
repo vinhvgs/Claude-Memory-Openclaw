@@ -291,6 +291,6 @@ December 20, 2025 decision documented:
 - v7.3.7: Platform stabilization
 
 ### Documentation
-- https://docs.claude-mem.ai/troubleshooting/windows-issues
+- https://github.com/vinhvgs/Claude-Memory-Openclaw/blob/main/docs/public/troubleshooting.mdx
 - `docs/context/windows-code-evaluation.md`
 - `docs/PM2-TO-BUN-MIGRATION.md`

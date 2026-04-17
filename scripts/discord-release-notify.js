@@ -63,7 +63,7 @@ function truncate(text, maxLength) {
 
 async function postToDiscord(webhookUrl, version, notes) {
   const cleanedNotes = notes ? cleanNotes(notes) : 'No release notes available.';
-  const repoUrl = 'https://github.com/thedotmack/claude-mem';
+  const repoUrl = 'https://github.com/vinhvgs/Claude-Memory-Openclaw';
 
   const payload = {
     embeds: [
@@ -80,7 +80,7 @@ async function postToDiscord(webhookUrl, version, notes) {
           },
           {
             name: '📚 Docs',
-            value: '[docs.claude-mem.ai](https://docs.claude-mem.ai)',
+            value: '[Claude Memory Openclaw docs](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)',
             inline: true,
           },
         ],

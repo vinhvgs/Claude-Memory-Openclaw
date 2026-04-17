@@ -3,11 +3,11 @@
 ---
 <h1 align="center">
   <br>
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-dark-mode.webp">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
     </picture>
   </a>
   <br>
@@ -58,17 +58,15 @@
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
   </a>
-  <a href="https://github.com/thedotmack/awesome-claude-code">
     <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code">
-  </a>
 </p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15496" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg" alt="thedotmack/claude-mem | Trendshift" width="250" height="55"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg" alt="vinhvgs/Claude-Memory-Openclaw | Trendshift" width="250" height="55"/>
     </picture>
   </a>
 </p>
@@ -76,9 +74,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
     </picture>
   </a>
 </p>
@@ -128,35 +126,35 @@ Restart Claude Code. Konteks dari sesi sebelumnya akan secara otomatis muncul di
 
 ## Dokumentasi
 
-📚 **[Lihat Dokumentasi Lengkap](https://docs.claude-mem.ai/)** - Jelajahi di situs web resmi
+📚 **[Lihat Dokumentasi Lengkap](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)** - Jelajahi di situs web resmi
 
 ### Memulai
 
-- **[Panduan Instalasi](https://docs.claude-mem.ai/installation)** - Mulai cepat & instalasi lanjutan
-- **[Panduan Penggunaan](https://docs.claude-mem.ai/usage/getting-started)** - Bagaimana Claude-Mem bekerja secara otomatis
-- **[Alat Pencarian](https://docs.claude-mem.ai/usage/search-tools)** - Query riwayat proyek Anda dengan bahasa alami
-- **[Fitur Beta](https://docs.claude-mem.ai/beta-features)** - Coba fitur eksperimental seperti Endless Mode
+- **[Panduan Instalasi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/installation.mdx)** - Mulai cepat & instalasi lanjutan
+- **[Panduan Penggunaan](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/getting-started.mdx)** - Bagaimana Claude-Mem bekerja secara otomatis
+- **[Alat Pencarian](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx)** - Query riwayat proyek Anda dengan bahasa alami
+- **[Fitur Beta](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** - Coba fitur eksperimental seperti Endless Mode
 
 ### Praktik Terbaik
 
-- **[Context Engineering](https://docs.claude-mem.ai/context-engineering)** - Prinsip optimisasi konteks agen AI
-- **[Progressive Disclosure](https://docs.claude-mem.ai/progressive-disclosure)** - Filosofi di balik strategi priming konteks Claude-Mem
+- **[Context Engineering](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/context-engineering.mdx)** - Prinsip optimisasi konteks agen AI
+- **[Progressive Disclosure](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/progressive-disclosure.mdx)** - Filosofi di balik strategi priming konteks Claude-Mem
 
 ### Arsitektur
 
-- **[Ringkasan](https://docs.claude-mem.ai/architecture/overview)** - Komponen sistem & aliran data
-- **[Evolusi Arsitektur](https://docs.claude-mem.ai/architecture-evolution)** - Perjalanan dari v3 ke v5
-- **[Arsitektur Hooks](https://docs.claude-mem.ai/hooks-architecture)** - Bagaimana Claude-Mem menggunakan lifecycle hooks
-- **[Referensi Hooks](https://docs.claude-mem.ai/architecture/hooks)** - 7 skrip hook dijelaskan
-- **[Worker Service](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API & manajemen Bun
-- **[Database](https://docs.claude-mem.ai/architecture/database)** - Skema SQLite & pencarian FTS5
-- **[Arsitektur Pencarian](https://docs.claude-mem.ai/architecture/search-architecture)** - Pencarian hybrid dengan database vektor Chroma
+- **[Ringkasan](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx)** - Komponen sistem & aliran data
+- **[Evolusi Arsitektur](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture-evolution.mdx)** - Perjalanan dari v3 ke v5
+- **[Arsitektur Hooks](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/hooks-architecture.mdx)** - Bagaimana Claude-Mem menggunakan lifecycle hooks
+- **[Referensi Hooks](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/hooks.mdx)** - 7 skrip hook dijelaskan
+- **[Worker Service](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/worker-service.mdx)** - HTTP API & manajemen Bun
+- **[Database](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/database.mdx)** - Skema SQLite & pencarian FTS5
+- **[Arsitektur Pencarian](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/search-architecture.mdx)** - Pencarian hybrid dengan database vektor Chroma
 
 ### Konfigurasi & Pengembangan
 
-- **[Konfigurasi](https://docs.claude-mem.ai/configuration)** - Variabel environment & pengaturan
-- **[Pengembangan](https://docs.claude-mem.ai/development)** - Membangun, testing, kontribusi
-- **[Pemecahan Masalah](https://docs.claude-mem.ai/troubleshooting)** - Masalah umum & solusi
+- **[Konfigurasi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** - Variabel environment & pengaturan
+- **[Pengembangan](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** - Membangun, testing, kontribusi
+- **[Pemecahan Masalah](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** - Masalah umum & solusi
 
 ---
 
@@ -171,7 +169,7 @@ Restart Claude Code. Konteks dari sesi sebelumnya akan secara otomatis muncul di
 5. **mem-search Skill** - Query bahasa alami dengan progressive disclosure
 6. **Chroma Vector Database** - Pencarian hybrid semantik + keyword untuk pengambilan konteks yang cerdas
 
-Lihat [Ringkasan Arsitektur](https://docs.claude-mem.ai/architecture/overview) untuk detail.
+Lihat [Ringkasan Arsitektur](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx) untuk detail.
 
 ---
 
@@ -206,7 +204,7 @@ Claude-Mem menyediakan pencarian cerdas melalui mem-search skill yang secara oto
 "What was happening when we added the viewer UI?"
 ```
 
-Lihat [Panduan Alat Pencarian](https://docs.claude-mem.ai/usage/search-tools) untuk contoh detail.
+Lihat [Panduan Alat Pencarian](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx) untuk contoh detail.
 
 ---
 
@@ -214,7 +212,7 @@ Lihat [Panduan Alat Pencarian](https://docs.claude-mem.ai/usage/search-tools) un
 
 Claude-Mem menawarkan **beta channel** dengan fitur eksperimental seperti **Endless Mode** (arsitektur memori biomimetik untuk sesi yang diperpanjang). Beralih antara versi stabil dan beta dari web viewer UI di http://localhost:37777 → Settings.
 
-Lihat **[Dokumentasi Fitur Beta](https://docs.claude-mem.ai/beta-features)** untuk detail tentang Endless Mode dan cara mencobanya.
+Lihat **[Dokumentasi Fitur Beta](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** untuk detail tentang Endless Mode dan cara mencobanya.
 
 ---
 
@@ -232,13 +230,13 @@ Lihat **[Dokumentasi Fitur Beta](https://docs.claude-mem.ai/beta-features)** unt
 
 Pengaturan dikelola di `~/.claude-mem/settings.json` (otomatis dibuat dengan default saat pertama kali dijalankan). Konfigurasi model AI, port worker, direktori data, level log, dan pengaturan injeksi konteks.
 
-Lihat **[Panduan Konfigurasi](https://docs.claude-mem.ai/configuration)** untuk semua pengaturan dan contoh yang tersedia.
+Lihat **[Panduan Konfigurasi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** untuk semua pengaturan dan contoh yang tersedia.
 
 ---
 
 ## Pengembangan
 
-Lihat **[Panduan Pengembangan](https://docs.claude-mem.ai/development)** untuk instruksi build, testing, dan alur kerja kontribusi.
+Lihat **[Panduan Pengembangan](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** untuk instruksi build, testing, dan alur kerja kontribusi.
 
 ---
 
@@ -246,7 +244,7 @@ Lihat **[Panduan Pengembangan](https://docs.claude-mem.ai/development)** untuk i
 
 Jika mengalami masalah, jelaskan masalah ke Claude dan troubleshoot skill akan secara otomatis mendiagnosis dan memberikan perbaikan.
 
-Lihat **[Panduan Pemecahan Masalah](https://docs.claude-mem.ai/troubleshooting)** untuk masalah umum dan solusi.
+Lihat **[Panduan Pemecahan Masalah](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** untuk masalah umum dan solusi.
 
 ---
 
@@ -269,7 +267,7 @@ Kontribusi sangat dipersilakan! Silakan:
 4. Perbarui dokumentasi
 5. Kirim Pull Request
 
-Lihat [Panduan Pengembangan](https://docs.claude-mem.ai/development) untuk alur kerja kontribusi.
+Lihat [Panduan Pengembangan](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx) untuk alur kerja kontribusi.
 
 ---
 
@@ -295,9 +293,9 @@ Lihat file [LICENSE](LICENSE) untuk detail lengkap.
 ## Dukungan
 
 - **Dokumentasi**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/thedotmack/claude-mem/issues)
-- **Repositori**: [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-- **Penulis**: Alex Newman ([@thedotmack](https://github.com/thedotmack))
+- **Issues**: [GitHub Issues](https://github.com/vinhvgs/Claude-Memory-Openclaw/issues)
+- **Repositori**: [github.com/vinhvgs/Claude-Memory-Openclaw](https://github.com/vinhvgs/Claude-Memory-Openclaw)
+- **Penulis**: Alex Newman (upstream creator)
 
 ---
 

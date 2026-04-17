@@ -2,11 +2,11 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-dark-mode.webp">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
     </picture>
   </a>
   <br>
@@ -57,17 +57,15 @@
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
   </a>
-  <a href="https://github.com/thedotmack/awesome-claude-code">
     <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code">
-  </a>
 </p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15496" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg" alt="thedotmack/claude-mem | Trendshift" width="250" height="55"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg" alt="vinhvgs/Claude-Memory-Openclaw | Trendshift" width="250" height="55"/>
     </picture>
   </a>
 </p>
@@ -75,9 +73,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
     </picture>
   </a>
 </p>
@@ -127,35 +125,35 @@ Käynnistä Claude Code uudelleen. Aiempien istuntojen konteksti ilmestyy automa
 
 ## Dokumentaatio
 
-📚 **[Näytä täydellinen dokumentaatio](https://docs.claude-mem.ai/)** - Selaa virallisella verkkosivustolla
+📚 **[Näytä täydellinen dokumentaatio](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)** - Selaa virallisella verkkosivustolla
 
 ### Aloitus
 
-- **[Asennusopas](https://docs.claude-mem.ai/installation)** - Pikaopas ja edistynyt asennus
-- **[Käyttöopas](https://docs.claude-mem.ai/usage/getting-started)** - Miten Claude-Mem toimii automaattisesti
-- **[Hakutyökalut](https://docs.claude-mem.ai/usage/search-tools)** - Kysy projektihistoriaasi luonnollisella kielellä
-- **[Beta-ominaisuudet](https://docs.claude-mem.ai/beta-features)** - Kokeile kokeellisia ominaisuuksia kuten Endless Mode
+- **[Asennusopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/installation.mdx)** - Pikaopas ja edistynyt asennus
+- **[Käyttöopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/getting-started.mdx)** - Miten Claude-Mem toimii automaattisesti
+- **[Hakutyökalut](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx)** - Kysy projektihistoriaasi luonnollisella kielellä
+- **[Beta-ominaisuudet](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** - Kokeile kokeellisia ominaisuuksia kuten Endless Mode
 
 ### Parhaat käytännöt
 
-- **[Kontekstisuunnittelu](https://docs.claude-mem.ai/context-engineering)** - AI-agentin kontekstin optimointiperiaatteet
-- **[Asteittainen paljastaminen](https://docs.claude-mem.ai/progressive-disclosure)** - Filosofia Claude-Mem-kontekstin valmistelustrategian takana
+- **[Kontekstisuunnittelu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/context-engineering.mdx)** - AI-agentin kontekstin optimointiperiaatteet
+- **[Asteittainen paljastaminen](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/progressive-disclosure.mdx)** - Filosofia Claude-Mem-kontekstin valmistelustrategian takana
 
 ### Arkkitehtuuri
 
-- **[Yleiskatsaus](https://docs.claude-mem.ai/architecture/overview)** - Järjestelmän komponentit ja datavirta
-- **[Arkkitehtuurin kehitys](https://docs.claude-mem.ai/architecture-evolution)** - Matka versiosta v3 versioon v5
-- **[Koukku-arkkitehtuuri](https://docs.claude-mem.ai/hooks-architecture)** - Miten Claude-Mem käyttää elinkaarikkoukkuja
-- **[Koukku-viittaus](https://docs.claude-mem.ai/architecture/hooks)** - 7 koukku-skriptiä selitettynä
-- **[Worker-palvelu](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API ja Bun-hallinta
-- **[Tietokanta](https://docs.claude-mem.ai/architecture/database)** - SQLite-skeema ja FTS5-haku
-- **[Hakuarkkitehtuuri](https://docs.claude-mem.ai/architecture/search-architecture)** - Hybridihaku Chroma-vektoritietokannalla
+- **[Yleiskatsaus](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx)** - Järjestelmän komponentit ja datavirta
+- **[Arkkitehtuurin kehitys](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture-evolution.mdx)** - Matka versiosta v3 versioon v5
+- **[Koukku-arkkitehtuuri](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/hooks-architecture.mdx)** - Miten Claude-Mem käyttää elinkaarikkoukkuja
+- **[Koukku-viittaus](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/hooks.mdx)** - 7 koukku-skriptiä selitettynä
+- **[Worker-palvelu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/worker-service.mdx)** - HTTP API ja Bun-hallinta
+- **[Tietokanta](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/database.mdx)** - SQLite-skeema ja FTS5-haku
+- **[Hakuarkkitehtuuri](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/search-architecture.mdx)** - Hybridihaku Chroma-vektoritietokannalla
 
 ### Asetukset ja kehitys
 
-- **[Asetukset](https://docs.claude-mem.ai/configuration)** - Ympäristömuuttujat ja asetukset
-- **[Kehitys](https://docs.claude-mem.ai/development)** - Rakentaminen, testaus, osallistuminen
-- **[Vianmääritys](https://docs.claude-mem.ai/troubleshooting)** - Yleiset ongelmat ja ratkaisut
+- **[Asetukset](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** - Ympäristömuuttujat ja asetukset
+- **[Kehitys](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** - Rakentaminen, testaus, osallistuminen
+- **[Vianmääritys](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** - Yleiset ongelmat ja ratkaisut
 
 ---
 
@@ -170,7 +168,7 @@ Käynnistä Claude Code uudelleen. Aiempien istuntojen konteksti ilmestyy automa
 5. **mem-search-taito** - Luonnollisen kielen kyselyt asteittaisella paljastamisella
 6. **Chroma-vektoritietokanta** - Hybridi semanttinen + avainsanahaku älykkääseen kontekstin hakuun
 
-Katso [Arkkitehtuurin yleiskatsaus](https://docs.claude-mem.ai/architecture/overview) yksityiskohdista.
+Katso [Arkkitehtuurin yleiskatsaus](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx) yksityiskohdista.
 
 ---
 
@@ -205,7 +203,7 @@ Claude-Mem tarjoaa älykkään haun mem-search-taidon kautta, joka käynnistyy a
 "Mitä tapahtui kun lisäsimme katselukäyttöliittymän?"
 ```
 
-Katso [Hakutyökalujen opas](https://docs.claude-mem.ai/usage/search-tools) yksityiskohtaisia esimerkkejä varten.
+Katso [Hakutyökalujen opas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx) yksityiskohtaisia esimerkkejä varten.
 
 ---
 
@@ -213,7 +211,7 @@ Katso [Hakutyökalujen opas](https://docs.claude-mem.ai/usage/search-tools) yksi
 
 Claude-Mem tarjoaa **beta-kanavan** kokeellisilla ominaisuuksilla kuten **Endless Mode** (biomimeettinen muistiarkkitehtuuri pidennetyille istunnoille). Vaihda vakaan ja beta-version välillä web-katselukäyttöliittymästä osoitteessa http://localhost:37777 → Settings.
 
-Katso **[Beta-ominaisuuksien dokumentaatio](https://docs.claude-mem.ai/beta-features)** yksityiskohdista Endless Moden ja sen kokeilemisen osalta.
+Katso **[Beta-ominaisuuksien dokumentaatio](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** yksityiskohdista Endless Moden ja sen kokeilemisen osalta.
 
 ---
 
@@ -231,13 +229,13 @@ Katso **[Beta-ominaisuuksien dokumentaatio](https://docs.claude-mem.ai/beta-feat
 
 Asetuksia hallitaan tiedostossa `~/.claude-mem/settings.json` (luodaan automaattisesti oletusarvoilla ensimmäisellä suorituskerralla). Määritä AI-malli, worker-portti, datahakemisto, lokitaso ja kontekstin injektointiasetukset.
 
-Katso **[Asetusopas](https://docs.claude-mem.ai/configuration)** kaikista saatavilla olevista asetuksista ja esimerkeistä.
+Katso **[Asetusopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** kaikista saatavilla olevista asetuksista ja esimerkeistä.
 
 ---
 
 ## Kehitys
 
-Katso **[Kehitysopas](https://docs.claude-mem.ai/development)** rakennusohjeista, testauksesta ja osallistumisen työnkulusta.
+Katso **[Kehitysopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** rakennusohjeista, testauksesta ja osallistumisen työnkulusta.
 
 ---
 
@@ -245,7 +243,7 @@ Katso **[Kehitysopas](https://docs.claude-mem.ai/development)** rakennusohjeista
 
 Jos kohtaat ongelmia, kuvaile ongelma Claudelle ja troubleshoot-taito diagnosoi automaattisesti ja tarjoaa korjauksia.
 
-Katso **[Vianmääritysopas](https://docs.claude-mem.ai/troubleshooting)** yleisistä ongelmista ja ratkaisuista.
+Katso **[Vianmääritysopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** yleisistä ongelmista ja ratkaisuista.
 
 ---
 
@@ -268,7 +266,7 @@ Osallistuminen on tervetullutta! Ole hyvä:
 4. Päivitä dokumentaatio
 5. Lähetä Pull Request
 
-Katso [Kehitysopas](https://docs.claude-mem.ai/development) osallistumisen työnkulusta.
+Katso [Kehitysopas](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx) osallistumisen työnkulusta.
 
 ---
 
@@ -294,9 +292,9 @@ Katso [LICENSE](LICENSE)-tiedosto täydellisistä yksityiskohdista.
 ## Tuki
 
 - **Dokumentaatio**: [docs/](docs/)
-- **Ongelmat**: [GitHub Issues](https://github.com/thedotmack/claude-mem/issues)
-- **Repositorio**: [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-- **Tekijä**: Alex Newman ([@thedotmack](https://github.com/thedotmack))
+- **Ongelmat**: [GitHub Issues](https://github.com/vinhvgs/Claude-Memory-Openclaw/issues)
+- **Repositorio**: [github.com/vinhvgs/Claude-Memory-Openclaw](https://github.com/vinhvgs/Claude-Memory-Openclaw)
+- **Tekijä**: Alex Newman (upstream creator)
 
 ---
 

@@ -858,9 +858,9 @@ install_plugin() {
 
   # Install the plugin using OpenClaw's CLI
   info "Installing claude-mem plugin into OpenClaw..."
-  if ! run_openclaw plugins install "$installable_dir" 2>&1; then
+  if ! run_openclaw plugins install --dangerously-force-unsafe-install "$installable_dir" 2>&1; then
     error "Failed to install claude-mem plugin"
-    error "Try manually: ${OPENCLAW_PATH} plugins install <path>"
+    error "Try manually: ${OPENCLAW_PATH} plugins install --dangerously-force-unsafe-install <path>"
     exit 1
   fi
 

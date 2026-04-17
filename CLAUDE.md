@@ -65,7 +65,7 @@ See `private/context/claude-code/exit-codes.md` for full hook behavior matrix.
 
 ## Documentation
 
-**Public Docs**: https://docs.claude-mem.ai (Mintlify)
+**Public Docs**: https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public (Mintlify)
 **Source**: `docs/public/` - MDX files, edit `docs.json` for navigation
 **Deploy**: Auto-deploys from GitHub on push to main
 

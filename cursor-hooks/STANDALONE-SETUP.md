@@ -34,8 +34,8 @@ Use claude-mem's persistent memory in Cursor without a Claude Code subscription.
 
 ```bash
 # Clone the repository
-git clone https://github.com/thedotmack/claude-mem.git
-cd claude-mem
+git clone https://github.com/vinhvgs/Claude-Memory-Openclaw.git
+cd Claude-Memory-Openclaw
 
 # Install dependencies
 bun install
@@ -106,7 +106,7 @@ EOF
 ## Step 3: Install Cursor Hooks
 
 ```bash
-# From the claude-mem repo directory (recommended - all projects)
+# From the repository directory (recommended - all projects)
 bun run cursor:install -- user
 
 # Or for project-level only:
@@ -190,7 +190,7 @@ If you hit the 1500 requests/day limit:
 
 - Read [README.md](README.md) for detailed hook documentation
 - Check [CONTEXT-INJECTION.md](CONTEXT-INJECTION.md) for context behavior details
-- Visit https://docs.claude-mem.ai for full documentation
+- Visit https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public for full documentation
 
 ## Quick Reference
 
@@ -221,8 +221,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ```powershell
 # Clone and build
-git clone https://github.com/thedotmack/claude-mem.git
-cd claude-mem
+git clone https://github.com/vinhvgs/Claude-Memory-Openclaw.git
+cd Claude-Memory-Openclaw
 bun install
 bun run build
 

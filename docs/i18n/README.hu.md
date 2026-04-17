@@ -3,11 +3,11 @@
 ---
 <h1 align="center">
   <br>
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-dark-mode.webp">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
     </picture>
   </a>
   <br>
@@ -58,17 +58,15 @@
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
   </a>
-  <a href="https://github.com/thedotmack/awesome-claude-code">
     <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code">
-  </a>
 </p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15496" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg" alt="thedotmack/claude-mem | Trendshift" width="250" height="55"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg" alt="vinhvgs/Claude-Memory-Openclaw | Trendshift" width="250" height="55"/>
     </picture>
   </a>
 </p>
@@ -76,9 +74,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
     </picture>
   </a>
 </p>
@@ -128,35 +126,35 @@ Indítsa újra a Claude Code-ot. A korábbi munkamenetek kontextusa automatikusa
 
 ## Dokumentáció
 
-📚 **[Teljes dokumentáció megtekintése](https://docs.claude-mem.ai/)** - Böngészés a hivatalos weboldalon
+📚 **[Teljes dokumentáció megtekintése](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)** - Böngészés a hivatalos weboldalon
 
 ### Első lépések
 
-- **[Telepítési útmutató](https://docs.claude-mem.ai/installation)** - Gyors indítás és haladó telepítés
-- **[Használati útmutató](https://docs.claude-mem.ai/usage/getting-started)** - Hogyan működik automatikusan a Claude-Mem
-- **[Keresési eszközök](https://docs.claude-mem.ai/usage/search-tools)** - Projekt előzmények lekérdezése természetes nyelvvel
-- **[Béta funkciók](https://docs.claude-mem.ai/beta-features)** - Kísérleti funkciók, mint az Endless Mode kipróbálása
+- **[Telepítési útmutató](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/installation.mdx)** - Gyors indítás és haladó telepítés
+- **[Használati útmutató](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/getting-started.mdx)** - Hogyan működik automatikusan a Claude-Mem
+- **[Keresési eszközök](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx)** - Projekt előzmények lekérdezése természetes nyelvvel
+- **[Béta funkciók](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** - Kísérleti funkciók, mint az Endless Mode kipróbálása
 
 ### Bevált gyakorlatok
 
-- **[Kontextus tervezés](https://docs.claude-mem.ai/context-engineering)** - AI ügynök kontextus optimalizálási elvek
-- **[Progresszív felfedés](https://docs.claude-mem.ai/progressive-disclosure)** - A Claude-Mem kontextus előkészítési stratégiájának filozófiája
+- **[Kontextus tervezés](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/context-engineering.mdx)** - AI ügynök kontextus optimalizálási elvek
+- **[Progresszív felfedés](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/progressive-disclosure.mdx)** - A Claude-Mem kontextus előkészítési stratégiájának filozófiája
 
 ### Architektúra
 
-- **[Áttekintés](https://docs.claude-mem.ai/architecture/overview)** - Rendszerkomponensek és adatfolyam
-- **[Architektúra fejlődés](https://docs.claude-mem.ai/architecture-evolution)** - Az út a v3-tól a v5-ig
-- **[Hooks architektúra](https://docs.claude-mem.ai/hooks-architecture)** - Hogyan használja a Claude-Mem az életciklus hookokat
-- **[Hooks referencia](https://docs.claude-mem.ai/architecture/hooks)** - 7 hook szkript magyarázata
-- **[Worker szolgáltatás](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API és Bun kezelés
-- **[Adatbázis](https://docs.claude-mem.ai/architecture/database)** - SQLite séma és FTS5 keresés
-- **[Keresési architektúra](https://docs.claude-mem.ai/architecture/search-architecture)** - Hibrid keresés Chroma vektor adatbázissal
+- **[Áttekintés](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx)** - Rendszerkomponensek és adatfolyam
+- **[Architektúra fejlődés](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture-evolution.mdx)** - Az út a v3-tól a v5-ig
+- **[Hooks architektúra](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/hooks-architecture.mdx)** - Hogyan használja a Claude-Mem az életciklus hookokat
+- **[Hooks referencia](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/hooks.mdx)** - 7 hook szkript magyarázata
+- **[Worker szolgáltatás](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/worker-service.mdx)** - HTTP API és Bun kezelés
+- **[Adatbázis](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/database.mdx)** - SQLite séma és FTS5 keresés
+- **[Keresési architektúra](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/search-architecture.mdx)** - Hibrid keresés Chroma vektor adatbázissal
 
 ### Konfiguráció és fejlesztés
 
-- **[Konfiguráció](https://docs.claude-mem.ai/configuration)** - Környezeti változók és beállítások
-- **[Fejlesztés](https://docs.claude-mem.ai/development)** - Építés, tesztelés, hozzájárulás
-- **[Hibaelhárítás](https://docs.claude-mem.ai/troubleshooting)** - Gyakori problémák és megoldások
+- **[Konfiguráció](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** - Környezeti változók és beállítások
+- **[Fejlesztés](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** - Építés, tesztelés, hozzájárulás
+- **[Hibaelhárítás](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** - Gyakori problémák és megoldások
 
 ---
 
@@ -171,7 +169,7 @@ Indítsa újra a Claude Code-ot. A korábbi munkamenetek kontextusa automatikusa
 5. **mem-search Skill** - Természetes nyelvi lekérdezések progresszív felfedéssel
 6. **Chroma vektor adatbázis** - Hibrid szemantikus + kulcsszó keresés intelligens kontextus visszakereséshez
 
-További részletekért lásd az [Architektúra áttekintést](https://docs.claude-mem.ai/architecture/overview).
+További részletekért lásd az [Architektúra áttekintést](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx).
 
 ---
 
@@ -206,7 +204,7 @@ A Claude-Mem intelligens keresést biztosít a mem-search skillen keresztül, am
 "Mi történt, amikor hozzáadtuk a megjelenítő felületet?"
 ```
 
-Részletes példákért lásd a [Keresési eszközök útmutatót](https://docs.claude-mem.ai/usage/search-tools).
+Részletes példákért lásd a [Keresési eszközök útmutatót](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx).
 
 ---
 
@@ -214,7 +212,7 @@ Részletes példákért lásd a [Keresési eszközök útmutatót](https://docs.
 
 A Claude-Mem **béta csatornát** kínál kísérleti funkciókkal, mint az **Endless Mode** (biomimetikus memória architektúra hosszabb munkamenetekhez). Váltson a stabil és béta verziók között a webes megjelenítő felületről a http://localhost:37777 → Settings címen.
 
-További részletekért az Endless Mode-ról és annak kipróbálásáról lásd a **[Béta funkciók dokumentációt](https://docs.claude-mem.ai/beta-features)**.
+További részletekért az Endless Mode-ról és annak kipróbálásáról lásd a **[Béta funkciók dokumentációt](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)**.
 
 ---
 
@@ -232,13 +230,13 @@ További részletekért az Endless Mode-ról és annak kipróbálásáról lásd
 
 A beállítások a `~/.claude-mem/settings.json` fájlban kezelhetők (automatikusan létrejön alapértelmezett értékekkel az első futtatáskor). Konfigurálható az AI modell, worker port, adatkönyvtár, naplózási szint és kontextus beillesztési beállítások.
 
-Az összes elérhető beállításért és példákért lásd a **[Konfigurációs útmutatót](https://docs.claude-mem.ai/configuration)**.
+Az összes elérhető beállításért és példákért lásd a **[Konfigurációs útmutatót](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)**.
 
 ---
 
 ## Fejlesztés
 
-Az építési utasításokért, tesztelésért és hozzájárulási munkafolyamatért lásd a **[Fejlesztési útmutatót](https://docs.claude-mem.ai/development)**.
+Az építési utasításokért, tesztelésért és hozzájárulási munkafolyamatért lásd a **[Fejlesztési útmutatót](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)**.
 
 ---
 
@@ -246,7 +244,7 @@ Az építési utasításokért, tesztelésért és hozzájárulási munkafolyama
 
 Problémák esetén írja le a problémát Claude-nak, és a troubleshoot skill automatikusan diagnosztizálja és javítási megoldásokat kínál.
 
-Gyakori problémákért és megoldásokért lásd a **[Hibaelhárítási útmutatót](https://docs.claude-mem.ai/troubleshooting)**.
+Gyakori problémákért és megoldásokért lásd a **[Hibaelhárítási útmutatót](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)**.
 
 ---
 
@@ -269,7 +267,7 @@ A hozzájárulásokat szívesen fogadjuk! Kérjük:
 4. Frissítse a dokumentációt
 5. Nyújtson be egy Pull Requestet
 
-A hozzájárulási munkafolyamatért lásd a [Fejlesztési útmutatót](https://docs.claude-mem.ai/development).
+A hozzájárulási munkafolyamatért lásd a [Fejlesztési útmutatót](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx).
 
 ---
 
@@ -295,9 +293,9 @@ A teljes részletekért lásd a [LICENSE](LICENSE) fájlt.
 ## Támogatás
 
 - **Dokumentáció**: [docs/](docs/)
-- **Hibák**: [GitHub Issues](https://github.com/thedotmack/claude-mem/issues)
-- **Tároló**: [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-- **Szerző**: Alex Newman ([@thedotmack](https://github.com/thedotmack))
+- **Hibák**: [GitHub Issues](https://github.com/vinhvgs/Claude-Memory-Openclaw/issues)
+- **Tároló**: [github.com/vinhvgs/Claude-Memory-Openclaw](https://github.com/vinhvgs/Claude-Memory-Openclaw)
+- **Szerző**: Alex Newman (upstream creator)
 
 ---
 

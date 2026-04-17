@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Claude-Mem",
-  "description": "Persistent memory compression system that preserves context across Claude Code sessions",
+  "name": "Claude Memory Openclaw",
+  "description": "Persistent memory compression system with OpenClaw integration for cross-session context continuity",
   "theme": "mint",
   "favicon": "/claude-mem-logomark.webp",
   "logo": {
     "light": "/claude-mem-logo-for-light-mode.webp",
     "dark": "/claude-mem-logo-for-dark-mode.webp",
-    "href": "https://github.com/thedotmack/claude-mem"
+    "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw"
   },
   "colors": {
     "primary": "#3B82F6",
@@ -18,13 +18,13 @@
     "links": [
       {
         "label": "GitHub",
-        "href": "https://github.com/thedotmack/claude-mem"
+        "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Install",
-      "href": "https://github.com/thedotmack/claude-mem#quick-start"
+      "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw#quick-start"
     }
   },
   "navigation": {
@@ -105,7 +105,7 @@
   },
   "footer": {
     "socials": {
-      "github": "https://github.com/thedotmack/claude-mem"
+      "github": "https://github.com/vinhvgs/Claude-Memory-Openclaw"
     },
     "links": [
       {
@@ -113,11 +113,11 @@
         "items": [
           {
             "label": "Documentation",
-            "href": "https://github.com/thedotmack/claude-mem"
+            "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public"
           },
           {
             "label": "Issues",
-            "href": "https://github.com/thedotmack/claude-mem/issues"
+            "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw/issues"
           }
         ]
       },
@@ -126,7 +126,7 @@
         "items": [
           {
             "label": "License (AGPL-3.0)",
-            "href": "https://github.com/thedotmack/claude-mem/blob/main/LICENSE"
+            "href": "https://github.com/vinhvgs/Claude-Memory-Openclaw/blob/main/LICENSE"
           }
         ]
       }
@@ -136,8 +136,8 @@
     "indexing": "all",
     "metatags": {
       "og:type": "website",
-      "og:site_name": "Claude-Mem Documentation",
-      "og:description": "Persistent memory compression system that preserves context across Claude Code sessions"
+      "og:site_name": "Claude Memory Openclaw Documentation",
+      "og:description": "Persistent memory compression system with OpenClaw integration for cross-session context continuity"
     }
   },
   "contextual": {

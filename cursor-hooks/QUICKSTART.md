@@ -108,5 +108,5 @@ Restart Cursor to load the hooks.
 
 - Read [README.md](README.md) for detailed documentation
 - Read [INTEGRATION.md](INTEGRATION.md) for architecture details
-- Visit [claude-mem docs](https://docs.claude-mem.ai) for full feature set
+- Visit [claude-mem docs](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public) for full feature set
 

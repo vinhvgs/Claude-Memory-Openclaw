@@ -201,7 +201,7 @@ Add explicit error messages when worker fails to start on Windows:
 if (process.platform === 'win32' && !workerStarted) {
   console.error('Worker failed to start on Windows.');
   console.error('Please run manually: bun plugin/scripts/worker-service.cjs start');
-  console.error('And check: https://docs.claude-mem.ai/troubleshooting');
+  console.error('And check: https://github.com/vinhvgs/Claude-Memory-Openclaw/blob/main/docs/public/troubleshooting.mdx');
 }
 ```
 

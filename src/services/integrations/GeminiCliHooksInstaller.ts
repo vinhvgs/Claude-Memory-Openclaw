@@ -506,7 +506,7 @@ Examples:
   claude-mem gemini-cli status      # Check if installed
   claude-mem gemini-cli uninstall   # Remove hooks
 
-For more info: https://docs.claude-mem.ai/usage/gemini-provider
+For more info: https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/gemini-provider.mdx
       `);
       return 0;
   }

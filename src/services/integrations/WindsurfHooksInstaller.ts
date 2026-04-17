@@ -506,7 +506,7 @@ Examples:
   claude-mem windsurf uninstall    # Remove hooks
   claude-mem windsurf status       # Check if hooks are installed
 
-For more info: https://docs.claude-mem.ai/windsurf
+For more info: https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/platform-integration.mdx
       `);
       return 0;
     }

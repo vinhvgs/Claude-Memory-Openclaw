@@ -2,11 +2,11 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-dark-mode.webp">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-dark-mode.webp">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/claude-mem-logo-for-light-mode.webp" alt="Claude-Mem" width="400">
     </picture>
   </a>
   <br>
@@ -57,17 +57,15 @@
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg" alt="Node">
   </a>
-  <a href="https://github.com/thedotmack/awesome-claude-code">
     <img src="https://awesome.re/mentioned-badge.svg" alt="Mentioned in Awesome Claude Code">
-  </a>
 </p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/15496" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg">
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/trendshift-badge.svg" alt="thedotmack/claude-mem | Trendshift" width="250" height="55"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/trendshift-badge.svg" alt="vinhvgs/Claude-Memory-Openclaw | Trendshift" width="250" height="55"/>
     </picture>
   </a>
 </p>
@@ -75,9 +73,9 @@
 <br>
 
 <p align="center">
-  <a href="https://github.com/thedotmack/claude-mem">
+  <a href="https://github.com/vinhvgs/Claude-Memory-Openclaw">
     <picture>
-      <img src="https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
+      <img src="https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/docs/public/cm-preview.gif" alt="Claude-Mem Preview" width="800">
     </picture>
   </a>
 </p>
@@ -127,35 +125,35 @@ Claude Code'u yeniden başlatın. Önceki oturumlardaki bağlam otomatik olarak 
 
 ## Dokümantasyon
 
-📚 **[Tam Dokümantasyonu Görüntüle](https://docs.claude-mem.ai/)** - Resmi web sitesinde göz atın
+📚 **[Tam Dokümantasyonu Görüntüle](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public)** - Resmi web sitesinde göz atın
 
 ### Başlarken
 
-- **[Kurulum Kılavuzu](https://docs.claude-mem.ai/installation)** - Hızlı başlangıç ve gelişmiş kurulum
-- **[Kullanım Kılavuzu](https://docs.claude-mem.ai/usage/getting-started)** - Claude-Mem otomatik olarak nasıl çalışır
-- **[Arama Araçları](https://docs.claude-mem.ai/usage/search-tools)** - Doğal dil ile proje geçmişinizi sorgulayın
-- **[Beta Özellikleri](https://docs.claude-mem.ai/beta-features)** - Endless Mode gibi deneysel özellikleri deneyin
+- **[Kurulum Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/installation.mdx)** - Hızlı başlangıç ve gelişmiş kurulum
+- **[Kullanım Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/getting-started.mdx)** - Claude-Mem otomatik olarak nasıl çalışır
+- **[Arama Araçları](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx)** - Doğal dil ile proje geçmişinizi sorgulayın
+- **[Beta Özellikleri](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** - Endless Mode gibi deneysel özellikleri deneyin
 
 ### En İyi Uygulamalar
 
-- **[Bağlam Mühendisliği](https://docs.claude-mem.ai/context-engineering)** - AI ajan bağlam optimizasyon ilkeleri
-- **[Aşamalı Açıklama](https://docs.claude-mem.ai/progressive-disclosure)** - Claude-Mem'in bağlam hazırlama stratejisinin ardındaki felsefe
+- **[Bağlam Mühendisliği](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/context-engineering.mdx)** - AI ajan bağlam optimizasyon ilkeleri
+- **[Aşamalı Açıklama](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/progressive-disclosure.mdx)** - Claude-Mem'in bağlam hazırlama stratejisinin ardındaki felsefe
 
 ### Mimari
 
-- **[Genel Bakış](https://docs.claude-mem.ai/architecture/overview)** - Sistem bileşenleri ve veri akışı
-- **[Mimari Evrimi](https://docs.claude-mem.ai/architecture-evolution)** - v3'ten v5'e yolculuk
-- **[Hooks Mimarisi](https://docs.claude-mem.ai/hooks-architecture)** - Claude-Mem yaşam döngüsü hook'larını nasıl kullanır
-- **[Hooks Referansı](https://docs.claude-mem.ai/architecture/hooks)** - 7 hook betiği açıklandı
-- **[Worker Servisi](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API ve Bun yönetimi
-- **[Veritabanı](https://docs.claude-mem.ai/architecture/database)** - SQLite şeması ve FTS5 arama
-- **[Arama Mimarisi](https://docs.claude-mem.ai/architecture/search-architecture)** - Chroma vektör veritabanı ile hibrit arama
+- **[Genel Bakış](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx)** - Sistem bileşenleri ve veri akışı
+- **[Mimari Evrimi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture-evolution.mdx)** - v3'ten v5'e yolculuk
+- **[Hooks Mimarisi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/hooks-architecture.mdx)** - Claude-Mem yaşam döngüsü hook'larını nasıl kullanır
+- **[Hooks Referansı](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/hooks.mdx)** - 7 hook betiği açıklandı
+- **[Worker Servisi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/worker-service.mdx)** - HTTP API ve Bun yönetimi
+- **[Veritabanı](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/database.mdx)** - SQLite şeması ve FTS5 arama
+- **[Arama Mimarisi](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/search-architecture.mdx)** - Chroma vektör veritabanı ile hibrit arama
 
 ### Yapılandırma ve Geliştirme
 
-- **[Yapılandırma](https://docs.claude-mem.ai/configuration)** - Ortam değişkenleri ve ayarlar
-- **[Geliştirme](https://docs.claude-mem.ai/development)** - Derleme, test etme, katkıda bulunma
-- **[Sorun Giderme](https://docs.claude-mem.ai/troubleshooting)** - Yaygın sorunlar ve çözümler
+- **[Yapılandırma](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** - Ortam değişkenleri ve ayarlar
+- **[Geliştirme](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** - Derleme, test etme, katkıda bulunma
+- **[Sorun Giderme](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** - Yaygın sorunlar ve çözümler
 
 ---
 
@@ -170,7 +168,7 @@ Claude Code'u yeniden başlatın. Önceki oturumlardaki bağlam otomatik olarak 
 5. **mem-search Becerisi** - Aşamalı açıklama ile doğal dil sorguları
 6. **Chroma Vektör Veritabanı** - Akıllı bağlam erişimi için hibrit anlamsal + anahtar kelime arama
 
-Detaylar için [Mimari Genel Bakış](https://docs.claude-mem.ai/architecture/overview) bölümüne bakın.
+Detaylar için [Mimari Genel Bakış](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/architecture/overview.mdx) bölümüne bakın.
 
 ---
 
@@ -205,7 +203,7 @@ Claude-Mem, geçmiş çalışmalarınız hakkında sorduğunuzda otomatik olarak
 "Görüntüleyici arayüzünü eklediğimizde ne oluyordu?"
 ```
 
-Detaylı örnekler için [Arama Araçları Kılavuzu](https://docs.claude-mem.ai/usage/search-tools) bölümüne bakın.
+Detaylı örnekler için [Arama Araçları Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/usage/search-tools.mdx) bölümüne bakın.
 
 ---
 
@@ -213,7 +211,7 @@ Detaylı örnekler için [Arama Araçları Kılavuzu](https://docs.claude-mem.ai
 
 Claude-Mem, **Endless Mode** (genişletilmiş oturumlar için biyomimetik bellek mimarisi) gibi deneysel özellikler içeren bir **beta kanalı** sunar. http://localhost:37777 → Settings adresindeki web görüntüleyici arayüzünden kararlı ve beta sürümleri arasında geçiş yapın.
 
-Endless Mode hakkında detaylar ve nasıl deneyeceğiniz için **[Beta Özellikleri Dokümantasyonu](https://docs.claude-mem.ai/beta-features)** bölümüne bakın.
+Endless Mode hakkında detaylar ve nasıl deneyeceğiniz için **[Beta Özellikleri Dokümantasyonu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/beta-features.mdx)** bölümüne bakın.
 
 ---
 
@@ -231,13 +229,13 @@ Endless Mode hakkında detaylar ve nasıl deneyeceğiniz için **[Beta Özellikl
 
 Ayarlar `~/.claude-mem/settings.json` dosyasında yönetilir (ilk çalıştırmada varsayılanlarla otomatik oluşturulur). AI modelini, worker portunu, veri dizinini, log seviyesini ve bağlam enjeksiyon ayarlarını yapılandırın.
 
-Tüm mevcut ayarlar ve örnekler için **[Yapılandırma Kılavuzu](https://docs.claude-mem.ai/configuration)** bölümüne bakın.
+Tüm mevcut ayarlar ve örnekler için **[Yapılandırma Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/configuration.mdx)** bölümüne bakın.
 
 ---
 
 ## Geliştirme
 
-Derleme talimatları, test etme ve katkı iş akışı için **[Geliştirme Kılavuzu](https://docs.claude-mem.ai/development)** bölümüne bakın.
+Derleme talimatları, test etme ve katkı iş akışı için **[Geliştirme Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx)** bölümüne bakın.
 
 ---
 
@@ -245,7 +243,7 @@ Derleme talimatları, test etme ve katkı iş akışı için **[Geliştirme Kıl
 
 Sorunlarla karşılaşırsanız, sorunu Claude'a açıklayın ve troubleshoot becerisi otomatik olarak teşhis edip düzeltmeleri sağlayacaktır.
 
-Yaygın sorunlar ve çözümler için **[Sorun Giderme Kılavuzu](https://docs.claude-mem.ai/troubleshooting)** bölümüne bakın.
+Yaygın sorunlar ve çözümler için **[Sorun Giderme Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/troubleshooting.mdx)** bölümüne bakın.
 
 ---
 
@@ -268,7 +266,7 @@ Katkılar memnuniyetle karşılanır! Lütfen:
 4. Dokümantasyonu güncelleyin
 5. Pull Request gönderin
 
-Katkı iş akışı için [Geliştirme Kılavuzu](https://docs.claude-mem.ai/development) bölümüne bakın.
+Katkı iş akışı için [Geliştirme Kılavuzu](https://github.com/vinhvgs/Claude-Memory-Openclaw/tree/main/docs/public/development.mdx) bölümüne bakın.
 
 ---
 
@@ -294,9 +292,9 @@ Tam detaylar için [LICENSE](LICENSE) dosyasına bakın.
 ## Destek
 
 - **Dokümantasyon**: [docs/](docs/)
-- **Sorunlar**: [GitHub Issues](https://github.com/thedotmack/claude-mem/issues)
-- **Depo**: [github.com/thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
-- **Yazar**: Alex Newman ([@thedotmack](https://github.com/thedotmack))
+- **Sorunlar**: [GitHub Issues](https://github.com/vinhvgs/Claude-Memory-Openclaw/issues)
+- **Depo**: [github.com/vinhvgs/Claude-Memory-Openclaw](https://github.com/vinhvgs/Claude-Memory-Openclaw)
+- **Yazar**: Alex Newman (upstream creator)
 
 ---
 

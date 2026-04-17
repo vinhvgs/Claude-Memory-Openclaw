@@ -11,7 +11,7 @@ console.log('\x1b[32mInstall claude-mem with:\x1b[0m');
 console.log('');
 console.log('  \x1b[36mnpx claude-mem install\x1b[0m');
 console.log('');
-console.log('For more info, visit: \x1b[36mhttps://docs.claude-mem.ai/installation\x1b[0m');
+console.log('For more info, visit: \x1b[36mhttps://github.com/vinhvgs/Claude-Memory-Openclaw/blob/main/docs/public/installation.mdx\x1b[0m');
 console.log('');
 
 process.exit(0);
