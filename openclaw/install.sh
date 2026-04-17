@@ -5,9 +5,9 @@ set -euo pipefail
 # Installs the claude-mem persistent memory plugin for OpenClaw gateways.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/thedotmack/claude-mem/main/openclaw/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/openclaw/install.sh | bash
 #   # Or with options:
-#   curl -fsSL https://raw.githubusercontent.com/thedotmack/claude-mem/main/openclaw/install.sh | bash -s -- --provider=gemini --api-key=YOUR_KEY
+#   curl -fsSL https://raw.githubusercontent.com/vinhvgs/Claude-Memory-Openclaw/main/openclaw/install.sh | bash -s -- --provider=gemini --api-key=YOUR_KEY
 #   # Direct execution:
 #   bash install.sh [--non-interactive] [--upgrade] [--provider=claude|gemini|openrouter] [--api-key=KEY]
 
